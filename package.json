@@ -1,0 +1,15 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "description": "UI Automation using playwright and typescript programming language",
+  "scripts": {
+    "test": "pnpm dlx playwright test",
+    "test:headed": "pnpm dlx playwright test --project=chromium --headed"
+  },
+  "keywords": ["playwright", "TypeScript"],
+  "author": "Gyanendra Pandey",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.27.0"
+  }
+}
