@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "UI Automation using playwright and typescript programming language",
   "scripts": {
-    "test": "pnpm dlx playwright test",
-    "test:headed": "pnpm dlx playwright test --project=chromium --headed"
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --project=chromium --headed"
   },
   "keywords": ["playwright", "TypeScript"],
   "author": "Gyanendra Pandey",
